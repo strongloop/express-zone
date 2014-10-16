@@ -1,0 +1,14 @@
+{
+  "name": "express-zone",
+  "version": "0.0.1",
+  "description": "Express middleware that wraps requests in a zone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "zone": "^0.3.0"
+  }
+}
