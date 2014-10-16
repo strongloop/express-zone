@@ -20,7 +20,7 @@ function wrapRequestInZone(req, res, next) {
   }).catch (function(err) {
     try {
       res.writeHead('500');
-      res.end('\n' + err.stack);
+      res.end('\n' + err.zoneStack);
     } catch (err) {
       // Ignore
     }
